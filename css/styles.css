@@ -172,12 +172,6 @@ nav {
   background: #fff;
 }
 
-
-
-
-
-
-
 #footer .footer-bottom {
     background-color: #e9a781;
     padding-top: 30px;
@@ -212,18 +206,6 @@ nav {
       transform: translateY(-10px);
     }
 }
-
-@keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-
-
 
   .info-box h3 {
     display: inline-block;
