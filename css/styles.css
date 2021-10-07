@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 nav {
-  background-color: rgb(189, 178, 163);
+  background-color: #e9a781;
 }
 
 .landing-page-section {
@@ -17,7 +23,6 @@ nav {
 
 
 #hero .btn-get-started {
-    font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -27,8 +32,12 @@ nav {
     transition: 0.5s;
     margin: 10px 0 0 0;
     color: #fff;
-    background: #c7b9b3;
+    background: #8d5230;
     text-decoration: none;
+}
+
+#hero .btn-get-started:hover {
+  background-color: #4a210a;
 }
 
 .img-fluid {
@@ -170,7 +179,7 @@ nav {
 
 
 #footer .footer-bottom {
-    background-color: rgb(189, 178, 163);
+    background-color: #e9a781;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
