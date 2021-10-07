@@ -223,3 +223,19 @@ nav {
   }
 
 
+
+
+  .info-box h3 {
+    display: inline-block;
+  }
+
+  .info-box i {
+    font-size: 26px;
+  padding: 20px 10px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 15px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+  }
